@@ -183,6 +183,8 @@ helm repo update
 
 kubectl create namespace argocd
 
+verify >>   kubectl get ns
+
 **********************************************************************************************************************************
 
 => Install Argo CD
