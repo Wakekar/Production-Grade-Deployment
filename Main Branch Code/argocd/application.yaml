@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/Wakekar/Production-Grade-Deployment.git
     targetRevision: Feature-Aniket
-    path: k8s
+    path: Main Branch Code/k8s
   destination:
     server: https://kubernetes.default.svc
     namespace: default
