@@ -177,6 +177,14 @@ helm version
 helm repo add argo https://argoproj.github.io/argo-helm
 helm repo update
 
+
+**********************************************************************************************************************************
+==>>>   Create the NameSpace
+
+kubectl create namespace argocd
+
+**********************************************************************************************************************************
+
 => Install Argo CD
 helm install argocd argo/argo-cd -n argocd
 Verify:
