@@ -5,16 +5,13 @@ metadata:
   namespace: argocd
 spec:
   project: default
-
   source:
-    repoURL: https://github.com/KastroVKiran/k8s-multi-app.git
-    targetRevision: main
-    path: k8s
-
+    repoURL: https://github.com/Wakekar/Production-Grade-Deployment.git
+    targetRevision: Feature-Aniket
+    path: Main Branch Code/k8s
   destination:
     server: https://kubernetes.default.svc
     namespace: default
-
   syncPolicy:
     automated:
       prune: true
